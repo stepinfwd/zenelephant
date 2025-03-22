@@ -13,23 +13,24 @@ import {
 
 export function BentoGridDemo() {
     return (
-        <div className="max-w-4xl mx-auto" id='blog'>
-            <h1 className="text-balance text-4xl font-semibold lg:text-5xl">Explore Our Blog</h1>
-            <p className="mt-8 max-w-2xl text-balance text-lg pb-10"> Insights, stories, and the latest trends—dive into our curated articles on all things tech, design, and innovation</p>
+        <div className="max-w-4xl mx-auto py-16 md:py-32" id='blog'>
+            <div className="@container mx-auto px-6">
+                <h1 className="text-balance text-4xl font-semibold lg:text-5xl">Explore Our Blog</h1>
+                <p className="mt-8 max-w-2xl text-balance text-lg pb-10"> Insights, stories, and the latest trends—dive into our curated articles on all things tech, design, and innovation</p>
 
-            <BentoGrid className="max-w-4xl mx-auto">
-
-                {items.map((item, i) => (
-                    <BentoGridItem
-                        key={i}
-                        title={item.title}
-                        description={item.description}
-                        header={item.header}
-                        icon={item.icon}
-                        className={i === 3 || i === 6 ? "md:col-span-2" : ""}
-                    />
-                ))}
-            </BentoGrid>
+                <BentoGrid className="max-w-4xl mx-auto">
+                    {items.map((item, i) => (
+                        <BentoGridItem
+                            key={i}
+                            title={item.title}
+                            description={item.description}
+                            header={item.header}
+                            icon={item.icon}
+                            className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+                        />
+                    ))}
+                </BentoGrid>
+            </div>
         </div >
 
     );

@@ -30,8 +30,6 @@ export default function Home() {
       <TeamSection />
       <BentoGridDemo />
       <GridBackgroundDemo />
-
-
       <FooterSection />
 
     </div>
