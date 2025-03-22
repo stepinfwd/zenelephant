@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { Mail, SendHorizonal } from 'lucide-react'
+import { HyperText } from "@/components/magicui/hyper-text";
 
 export default function CallToAction() {
 
@@ -7,7 +8,7 @@ export default function CallToAction() {
         <section className="py-16 md:py-32">
             <div className="mx-auto max-w-5xl px-6">
                 <div className="text-center">
-                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl">  Unlock the Future of Immersive Experiences!</h2>
+                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl"> <HyperText startOnView={true}>Unlock the Future of Immersive Experiences!</HyperText> </h2>
                     <p className="mt-4">Join our AR/VR platform today and step into a world where reality meets imagination. Create, explore, and interact like never before.
 
                         🚀 Sign up now and be part of the future!.</p>

@@ -1,6 +1,5 @@
 import { cn } from "@/lib/utils"
 import CallToAction from "./call-to-action"
-import { BentoGridDemo } from "./blog"
 
 export default function GridBackgroundDemo() {
     return (

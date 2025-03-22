@@ -13,7 +13,7 @@ import {
 
 export function BentoGridDemo() {
     return (
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto" id='blog'>
             <h1 className="mt-8 max-w-2xl text-balance text-5xl md:text-6xl lg:mt-16 xl:text-7xl">Explore Our Blog</h1>
             <p className="mt-8 max-w-2xl text-balance text-lg pb-10"> Insights, stories, and the latest trends—dive into our curated articles on all things tech, design, and innovation</p>
 
