@@ -22,8 +22,8 @@ export default function TeamSection() {
             <div className="mx-auto max-w-5xl border-t px-6">
                 <span className="text-caption -ml-6 -mt-3.5 block w-max bg-gray-50 px-6 dark:bg-gray-950">Team</span>
                 <div className="mt-12 gap-4 sm:grid sm:grid-cols-2 md:mt-24">
-                    <div className="sm:w-2/5">
-                        <h2 className="text-3xl font-bold sm:text-4xl">Our dream team</h2>
+                    <div className="sm:w-3/5">
+                        <h2 className="text-balance text-4xl font-semibold lg:text-5xl">Our dream team</h2>
                     </div>
                 </div>
                 <div className="mt-12 md:mt-24">
