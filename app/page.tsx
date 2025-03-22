@@ -1,13 +1,10 @@
 import { BentoGridDemo } from "@/components/blog";
-import CallToAction from "@/components/call-to-action";
 import Features from "@/components/features-2";
 import GridBackgroundDemo from "@/components/flicker-grid";
-// import { FlickeringGridDemo } from "@/components/flicker-grid";
 import FooterSection from "@/components/footer";
 import HeroSection from "@/components/hero-section";
 import HeroVideoDialog from "@/components/magicui/hero-video-dialog";
 import TeamSection from "@/components/team";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -31,9 +28,6 @@ export default function Home() {
       </div>
       <Features />
       <TeamSection />
-
-
-
       <BentoGridDemo />
       <GridBackgroundDemo />
 
@@ -44,9 +38,3 @@ export default function Home() {
   );
 }
 
-
-// - Industrial Training with VR/AR
-// - Medical Training Using VR/AR
-// - Military training & Law Enforcement VR Simulations
-// - Real Estate & Architectural Visualization with VR/AR
-// - Custom VR/AR Solutions & Interactive Storytelling
