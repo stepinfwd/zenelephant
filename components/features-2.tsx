@@ -17,11 +17,11 @@ export default function Features() {
                                 <Zap className="size-6" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Industrial Training <br />with VR/AR</h3>
+                            <h3 className="mt-6 font-medium">Industrial Training</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="text-sm">Extensive customization options, allowing you to tailor every aspect to meet your specific needs.</p>
+                            <p className="text-sm">We create realistic VR simulations for safe skill practice, boosting compliance, cutting training costs, and scaling workforce efficiency.</p>
                         </CardContent>
                     </Card>
 
@@ -31,11 +31,11 @@ export default function Features() {
                                 <Settings2 className="size-6" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Medical Training<br /> Using VR/AR</h3>
+                            <h3 className="mt-6 font-medium">Medical Training</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">From design elements to functionality, you have complete control to create a unique and personalized experience.</p>
+                            <p className="mt-3 text-sm">Immersive VR/AR healthcare training ensures risk-free practice of complex procedures, boosting skill levels and patient safety</p>
                         </CardContent>
                     </Card>
 
@@ -45,11 +45,11 @@ export default function Features() {
                                 <Sparkles className="size-6" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Military training & Law Enforcement VR Simulations</h3>
+                            <h3 className="mt-6 font-medium">Real Estate</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">Elements to functionality, you have complete control to create a unique experience.</p>
+                            <p className="mt-3 text-sm">Revolutionize property showcasing with interactive VR tours and high-fidelity 3D visuals, streamlining decisions and elevating client engagement</p>
                         </CardContent>
                     </Card>
                     <Card className="group border-0 shadow-none">
@@ -58,11 +58,11 @@ export default function Features() {
                                 <Zap className="size-6" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Real Estate & Architectural Visualization with VR/AR</h3>
+                            <h3 className="mt-6 font-medium">Interactive Storytelling</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="text-sm">Extensive customization options, allowing you to tailor every aspect to meet your specific needs.</p>
+                            <p className="text-sm">We blend dynamic animation and interactive narratives, inviting users to participate in immersive tales for an unforgettable AR/VR adventure</p>
                         </CardContent>
                     </Card>
 
@@ -72,11 +72,11 @@ export default function Features() {
                                 <Settings2 className="size-6" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Custom VR/AR Solutions & Interactive Storytelling</h3>
+                            <h3 className="mt-6 font-medium">Game Story Writing/Art Direction</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">From design elements to functionality, you have complete control to create a unique and personalized experience.</p>
+                            <p className="mt-3 text-sm">We craft immersive narratives, design compelling characters, and shape striking visuals to elevate your game's storytelling and audience appeal</p>
                         </CardContent>
                     </Card>
 
@@ -86,11 +86,11 @@ export default function Features() {
                                 <Sparkles className="size-6" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Powered By AI & <br />zen</h3>
+                            <h3 className="mt-6 font-medium">Military</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">Elements to functionality, you have complete control to create a unique experience.</p>
+                            <p className="mt-3 text-sm"> Harness advanced VR/AR for strategic simulations and combat drills, enabling risk-free, repeatable training that hones soldier readiness and mission success</p>
                         </CardContent>
                     </Card>
                 </div>
