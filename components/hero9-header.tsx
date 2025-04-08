@@ -47,20 +47,19 @@ export const HeroHeader = () => {
             )}
           >
             <div className="flex w-full items-center justify-between gap-12 lg:w-auto">
-              <Link
+              {/* <Link
                 href="/"
                 aria-label="home"
                 className="flex items-center space-x-2"
-              >
-                <Image
-                  src="/assets/zenlogo.svg"
-                  alt="Logo"
-                  width={100}
-                  height={100}
-                  className={cn("w-auto h-auto")}
-                />{" "}
-              </Link>
-
+              > */}
+              <Image
+                src="/assets/zenlogo.svg"
+                alt="Logo"
+                width={60}
+                height={60}
+                // className={cn("w-auto h-auto")}
+              />
+              {/* </Link> */}
               <button
                 onClick={() => setMenuState(!menuState)}
                 aria-label={menuState == true ? "Close Menu" : "Open Menu"}
@@ -69,7 +68,6 @@ export const HeroHeader = () => {
                 <Menu className="in-data-[state=active]:rotate-180 in-data-[state=active]:scale-0 in-data-[state=active]:opacity-0 m-auto size-6 duration-200" />
                 <X className="in-data-[state=active]:rotate-0 in-data-[state=active]:scale-100 in-data-[state=active]:opacity-100 absolute inset-0 m-auto size-6 -rotate-180 scale-0 opacity-0 duration-200" />
               </button>
-
               <div className="hidden lg:block">
                 <ul className="flex gap-8 text-sm">
                   {menuItems.map((item, index) => (
