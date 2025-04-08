@@ -28,7 +28,7 @@ export const HeroHeader = () => {
   }, [scrollYProgress]);
 
   return (
-    <header>
+    <header className="z-21">
       <nav
         data-state={menuState && "active"}
         className="fixed z-20 w-full pt-2"
