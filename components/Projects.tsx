@@ -1,5 +1,6 @@
 import Image from "next/image";
 import CardDemo from "./cards-demo-1";
+import { BlurFade } from "./magicui/blur-fade";
 
 export default function Projects() {
   return (
@@ -16,9 +17,15 @@ export default function Projects() {
       </div>
       <div className="mx-auto max-w-2xl px-6 lg:max-w-5xl mt-4">
         <div className="mx-auto grid gap-4 lg:grid-cols-3">
-          <CardDemo />
-          <CardDemo />
-          <CardDemo />
+          <BlurFade delay={0.25} inView>
+            <CardDemo />
+          </BlurFade>
+          <BlurFade delay={0.45} inView>
+            <CardDemo />
+          </BlurFade>
+          <BlurFade delay={0.65} inView>
+            <CardDemo />
+          </BlurFade>
         </div>
       </div>
     </section>

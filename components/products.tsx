@@ -1,6 +1,14 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Settings2, Sparkles, Zap } from "lucide-react";
+import {
+  Factory,
+  Stethoscope,
+  Building,
+  BookOpen,
+  Gamepad2,
+  Shield,
+} from "lucide-react";
 import { ReactNode } from "react";
+import { SparklesText } from "./magicui/sparkles-text";
 
 export default function Features() {
   return (
@@ -11,7 +19,7 @@ export default function Features() {
       <div className="@container mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
-            Our Expertise in Immersive Experiences
+            <SparklesText text=" Our Expertise In Immersive Experiences" />
           </h2>
           <p className="mt-4">
             Crafting next-gen VR/AR solutions across industries to train,
@@ -22,7 +30,7 @@ export default function Features() {
           <div className="group shadow-zinc-950/5">
             <CardHeader className="pb-3">
               <CardDecorator>
-                <Zap className="size-6" aria-hidden />
+                <Factory className="size-6" aria-hidden />
               </CardDecorator>
 
               <h3 className="mt-6 font-medium">Industry</h3>
@@ -40,7 +48,7 @@ export default function Features() {
           <div className="group shadow-zinc-950/5">
             <CardHeader className="pb-3">
               <CardDecorator>
-                <Settings2 className="size-6" aria-hidden />
+                <Stethoscope className="size-6" aria-hidden />
               </CardDecorator>
 
               <h3 className="mt-6 font-medium">Medical</h3>
@@ -57,7 +65,7 @@ export default function Features() {
           <div className="group shadow-zinc-950/5">
             <CardHeader className="pb-3">
               <CardDecorator>
-                <Sparkles className="size-6" aria-hidden />
+                <Building className="size-6" aria-hidden />
               </CardDecorator>
 
               <h3 className="mt-6 font-medium">Real Estate</h3>
@@ -76,7 +84,7 @@ export default function Features() {
           <div className="group shadow-zinc-950/5">
             <CardHeader className="pb-3">
               <CardDecorator>
-                <Zap className="size-6" aria-hidden />
+                <BookOpen className="size-6" aria-hidden />
               </CardDecorator>
 
               <h3 className="mt-6 font-medium">Interactive Storytelling</h3>
@@ -94,7 +102,7 @@ export default function Features() {
           <div className="group shadow-zinc-950/5">
             <CardHeader className="pb-3">
               <CardDecorator>
-                <Settings2 className="size-6" aria-hidden />
+                <Gamepad2 className="size-6" aria-hidden />
               </CardDecorator>
 
               <h3 className="mt-6 font-medium">
@@ -114,7 +122,7 @@ export default function Features() {
           <div className="group shadow-zinc-950/5">
             <CardHeader className="pb-3">
               <CardDecorator>
-                <Sparkles className="size-6" aria-hidden />
+                <Shield className="size-6" aria-hidden />
               </CardDecorator>
 
               <h3 className="mt-6 font-medium">Military</h3>
