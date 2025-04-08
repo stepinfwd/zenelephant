@@ -22,11 +22,12 @@ export default function CallToAction() {
       setEmail("");
     } catch (error: unknown) {
       setStatus("error");
-
-      const message =
+      console.error(
         error instanceof Error
           ? error.message
-          : "Something went wrong. Please try again.";
+          : "Something went wrong. Please try again."
+      );
+      const message = "Something went wrong. Please try again.";
 
       setErrorMessage(message);
     }
