@@ -24,7 +24,6 @@ export function BentoGridDemo() {
           {items.map((item, i) => (
             <a href={`/blogs/${item.slug}`} key={item.slug}>
               <BentoGridItem
-                key={i}
                 title={item.title}
                 description={item.description}
                 header={item.header}
@@ -43,7 +42,15 @@ const Skeleton = () => (
   <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div>
 );
 
-const ImageWithOverlay = ({ src, alt, overlayColor = "rgba(0,0,0,0.4)" }) => (
+const ImageWithOverlay = ({
+  src,
+  alt,
+  overlayColor = "rgba(0,0,0,0.4)",
+}: {
+  src: string;
+  alt: string;
+  overlayColor?: string;
+}) => (
   <div className="relative flex flex-1 w-full h-full min-h-[12rem] rounded-xl overflow-hidden group">
     {/* Main image */}
     <Image

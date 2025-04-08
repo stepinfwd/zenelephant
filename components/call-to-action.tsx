@@ -10,7 +10,7 @@ export default function CallToAction() {
   const [status, setStatus] = useState("idle"); // idle, loading, success, error
   const [errorMessage, setErrorMessage] = useState("");
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (!email.trim()) return;
@@ -20,11 +20,15 @@ export default function CallToAction() {
       await saveEmailSubscription(email);
       setStatus("success");
       setEmail("");
-    } catch (error) {
+    } catch (error: unknown) {
       setStatus("error");
-      setErrorMessage(
-        error.message || "Something went wrong. Please try again."
-      );
+
+      const message =
+        error instanceof Error
+          ? error.message
+          : "Something went wrong. Please try again.";
+
+      setErrorMessage(message);
     }
   };
 
