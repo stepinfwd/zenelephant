@@ -12,7 +12,7 @@ export function BentoGridDemo() {
   return (
     <div className="max-w-5xl mx-auto py-16 md:py-32" id="blog">
       <div className="@container mx-auto px-6">
-        <h1 className="text-balance text-4xl font-semibold lg:text-5xl">
+        <h1 className="text-balance text-4xl font-bold lg:text-5xl">
           Explore Our Blog
         </h1>
         <p className="mt-4 max-w-2xl text-balance text-lg pb-10">
