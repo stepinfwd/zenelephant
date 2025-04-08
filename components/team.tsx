@@ -29,7 +29,7 @@ export default function TeamSection() {
         </span>
         <div className="mt-4 gap-4 sm:grid sm:grid-cols-2 md:mt-24">
           <div className="sm:w-3/5">
-            <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
+            <h2 className="text-balance text-4xl font-bold lg:text-5xl">
               Our Dream Team
             </h2>
           </div>

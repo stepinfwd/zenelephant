@@ -10,7 +10,7 @@ export default function Projects() {
     >
       <div className="@container mx-auto max-w-5xl px-6">
         <div className="text-center">
-          <h2 className="text-balance text-4xl font-semibold lg:text-5xl mb-8">
+          <h2 className="text-balance text-4xl font-bold lg:text-5xl mb-8">
             Our Products
           </h2>
         </div>
