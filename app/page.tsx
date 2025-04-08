@@ -1,14 +1,18 @@
 import { BentoGridDemo } from "@/components/blog";
 import Features from "@/components/features-2";
+import Products from "@/components/products";
+
 import GridBackgroundDemo from "@/components/flicker-grid";
 import FooterSection from "@/components/footer";
 import HeroSection from "@/components/hero-section";
 import HeroVideoDialog from "@/components/magicui/hero-video-dialog";
 import TeamSection from "@/components/team";
+import CardDemo from "@/components/cards-demo-1";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className="">
       <HeroSection />
       <div className="relative">
         <HeroVideoDialog
@@ -26,13 +30,14 @@ export default function Home() {
           thumbnailAlt="Hero Video"
         />
       </div>
-      <Features />
+      {/* <Features /> */}
+      <Products />
+      {/* <CardDemo /> */}
+      <Projects />
       <TeamSection />
       <BentoGridDemo />
       <GridBackgroundDemo />
       <FooterSection />
-
     </div>
   );
 }
-
