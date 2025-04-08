@@ -2,15 +2,15 @@ import Link from "next/link";
 
 const members = [
   {
-    name: "Pranav Suresh ",
-    role: "Founder - CTO",
-    avatar: "/assets/pranav.jpeg", // Local path from public folder
-    link: "https://www.linkedin.com/in/pranav-suresh-7bbb7a141/",
-  },
-  {
     name: "Yadhu",
     role: "Co-Founder - CEO",
     avatar: "/assets/oya.jpeg", // Local path from public folder
+    link: "https://www.linkedin.com/in/pranav-suresh-7bbb7a141/",
+  },
+  {
+    name: "Pranav Suresh ",
+    role: "Founder - CTO",
+    avatar: "/assets/pranav.jpeg", // Local path from public folder
     link: "https://www.linkedin.com/in/pranav-suresh-7bbb7a141/",
   },
 ];
@@ -58,7 +58,6 @@ export default function TeamSection() {
                       href={member.link}
                       className="group-hover:text-primary-600 dark:group-hover:text-primary-400 inline-block translate-y-8 text-sm tracking-wide opacity-0 transition-all duration-500 hover:underline group-hover:translate-y-0 group-hover:opacity-100"
                     >
-                      {" "}
                       Linkedin
                     </Link>
                   </div>
