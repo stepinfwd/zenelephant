@@ -3,11 +3,14 @@ import CardDemo from "./cards-demo-1";
 
 export default function Projects() {
   return (
-    <section className="bg-zinc-50 py-32 md:p-32 dark:bg-transparent">
+    <section
+      className="bg-zinc-50 py-32 md:p-32 dark:bg-transparent"
+      id="products"
+    >
       <div className="@container mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl mb-8">
-            Our Projects
+            Our Products
           </h2>
         </div>
       </div>

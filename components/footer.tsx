@@ -7,16 +7,16 @@ const links = [
     href: "feature",
   },
   {
+    title: "Products",
+    href: "products",
+  },
+  {
     title: "Team",
     href: "team",
   },
   {
     title: "Blog",
     href: "blog",
-  },
-  {
-    title: "Products",
-    href: "products",
   },
 ];
 

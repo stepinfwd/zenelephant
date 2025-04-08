@@ -149,7 +149,7 @@ export default async function Post({ params }) {
       <div className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-700">
         <div className="flex justify-between">
           <Link
-            href="/blog"
+            href="/"
             className="text-blue-600 dark:text-blue-400 hover:underline"
           >
             ← Back to all posts
