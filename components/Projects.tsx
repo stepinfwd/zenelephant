@@ -1,4 +1,3 @@
-import Image from "next/image";
 import CardDemo from "./cards-demo-1";
 import { BlurFade } from "./magicui/blur-fade";
 

@@ -1,12 +1,9 @@
 import React from "react";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { HeroHeader } from "@/components/hero9-header";
 import { InfiniteSlider } from "@/components/ui/infinite-slider";
 import { ProgressiveBlur } from "@/components/ui/progressive-blur";
 import { ChevronRight } from "lucide-react";
-import { ShinyButton } from "./magicui/shiny-button";
-import { BoxReveal } from "./magicui/box-reveal";
 
 export default function HeroSection() {
   return (
@@ -17,39 +14,32 @@ export default function HeroSection() {
           <div className="py-24 md:pb-32 lg:pb-36 lg:pt-72">
             <div className="relative mx-auto flex max-w-7xl flex-col px-6 lg:block lg:px-12">
               <div className="mx-auto max-w-lg text-center lg:ml-0 lg:max-w-full lg:text-left">
-                {/* <BoxReveal boxColor={"#fafafa"} duration={0.5}> */}
                 <h1 className="mt-8 max-w-2xl text-balance text-5xl md:text-6xl lg:mt-16 xl:text-7xl font-bold text-white relative z-10">
                   <span className="relative before:content-[''] before:absolute before:inset-0 before:backdrop-blur-sm before:rounded-xl before:-z-10 before:opacity-60">
                     Blurring the lines between reality and imagination
                   </span>
                 </h1>
-
-                {/* </BoxReveal> */}
-                <BoxReveal boxColor={"#fafafa"} duration={0.7}>
-                  <p className="mt-8 max-w-2xl text-balance text-lg font-semibold text-white relative z-10">
-                    <span className="relative before:content-[''] before:absolute before:inset-0 before:backdrop-blur-sm before:rounded-lg before:-z-10 before:opacity-50">
-                      Experience AR & VR like never before!
-                    </span>
-                  </p>
-                </BoxReveal>
-                <BoxReveal boxColor={"#fafafa"} duration={0.3}>
-                  <div className="mt-8 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
-                    <Button
-                      // asChild
-                      // size="lg"
-                      // className="text-base"
-                      style={{ backgroundColor: "#c0c5c8", color: "black" }}
+                <p className="mt-8 max-w-2xl text-balance text-lg font-semibold text-white relative z-10">
+                  <span className="relative before:content-[''] before:absolute before:inset-0 before:backdrop-blur-sm before:rounded-lg before:-z-10 before:opacity-50">
+                    Experience AR & VR like never before!
+                  </span>
+                </p>
+                <div className="mt-8 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
+                  <Button
+                    // asChild
+                    // size="lg"
+                    // className="text-base"
+                    style={{ backgroundColor: "#c0c5c8", color: "black" }}
+                  >
+                    <a
+                      href="mailto:zenelephantxr@gmail.com?subject=SendMail&body=Description"
+                      className="inline-flex items-center"
                     >
-                      <a
-                        href="mailto:zenelephantxr@gmail.com?subject=SendMail&body=Description"
-                        className="inline-flex items-center"
-                      >
-                        <span className="text-nowrap">Let's Talk</span>
-                        <ChevronRight className="ml-1" />
-                      </a>
-                    </Button>
-                  </div>
-                </BoxReveal>
+                      <span className="text-nowrap">Let's Talk</span>
+                      <ChevronRight className="ml-1" />
+                    </a>
+                  </Button>
+                </div>
               </div>
             </div>
             <div className="aspect-2/3 absolute inset-1 -z-10 overflow-hidden rounded-3xl border border-black/10 lg:aspect-video lg:rounded-[3rem] dark:border-white/5">
