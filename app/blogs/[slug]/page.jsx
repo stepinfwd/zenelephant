@@ -5,7 +5,6 @@ import { getAllBlogs } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { formatDate } from "@/lib/utils";
 
 // Configure markdown-it with plugins
 const md = new MarkdownIt({
