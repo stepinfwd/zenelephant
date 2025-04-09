@@ -1,18 +1,17 @@
 import Link from "next/link";
-import { BoxReveal } from "./magicui/box-reveal";
 import { BlurFade } from "./magicui/blur-fade";
 
 const members = [
   {
-    name: "Yadhu",
-    role: "Co-Founder - CEO",
-    avatar: "/assets/oya.jpeg", // Local path from public folder
-    link: "https://www.linkedin.com/in/pranav-suresh-7bbb7a141/",
-  },
-  {
     name: "Pranav Suresh ",
     role: "Founder - CTO",
     avatar: "/assets/pranav.jpeg", // Local path from public folder
+    link: "https://www.linkedin.com/in/pranav-suresh-7bbb7a141/",
+  },
+  {
+    name: "Yadhu",
+    role: "Co-Founder - CEO",
+    avatar: "/assets/oya.jpeg", // Local path from public folder
     link: "https://www.linkedin.com/in/pranav-suresh-7bbb7a141/",
   },
 ];
