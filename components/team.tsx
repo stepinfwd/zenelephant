@@ -9,7 +9,7 @@ const members = [
     link: "https://www.linkedin.com/in/pranav-suresh-7bbb7a141/",
   },
   {
-    name: "Yadhu",
+    name: "Yadhukrishnan Bk",
     role: "Co-Founder - CEO",
     avatar: "/assets/oya.jpeg", // Local path from public folder
     link: "https://www.linkedin.com/in/pranav-suresh-7bbb7a141/",
