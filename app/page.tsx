@@ -15,14 +15,14 @@ export default function Home() {
         <HeroVideoDialog
           className="block dark:hidden"
           animationStyle="from-center"
-          videoSrc="https://www.youtube.com/embed/qh3NGpYRG3I?si=4rb-zSdDkVK9qxxb"
+          videoSrc="https://youtu.be/F3hAZ0TyLPo"
           thumbnailSrc="https://images.unsplash.com/photo-1710419364928-c4049049211f?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           thumbnailAlt="Hero Video"
         />
         <HeroVideoDialog
           className="hidden dark:block"
           animationStyle="from-center"
-          videoSrc="https://www.youtube.com/embed/qh3NGpYRG3I?si=4rb-zSdDkVK9qxxb"
+          videoSrc="https://youtu.be/F3hAZ0TyLPo"
           thumbnailSrc="https://images.unsplash.com/photo-1710419364928-c4049049211f?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           thumbnailAlt="Hero Video"
         />
