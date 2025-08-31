@@ -4,13 +4,13 @@ import { BlurFade } from "./magicui/blur-fade";
 const members = [
   {
     name: "Pranav Suresh ",
-    role: "Founder - CTO",
+    role: "Co-Founder – Tech Head & Operations",
     avatar: "/assets/pranav.jpeg", // Local path from public folder
     link: "https://www.linkedin.com/in/pranav-suresh-7bbb7a141/",
   },
   {
     name: "Yadhukrishnan Bk",
-    role: "Co-Founder - CEO",
+    role: "Co-Founder – Creative Head & Operations",
     avatar: "/assets/oya.jpeg", // Local path from public folder
     link: "https://www.linkedin.com/in/pranav-suresh-7bbb7a141/",
   },

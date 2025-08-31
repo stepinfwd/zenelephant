@@ -4,19 +4,19 @@ import Link from "next/link";
 const links = [
   {
     title: "Features",
-    href: "feature",
+    href: "#features",
   },
   {
     title: "Products",
-    href: "products",
+    href: "#products",
   },
   {
     title: "Team",
-    href: "team",
+    href: "#team",
   },
   {
     title: "Blog",
-    href: "blog",
+    href: "#blog",
   },
 ];
 
@@ -44,6 +44,12 @@ export default function FooterSection() {
               <span>{link.title}</span>
             </Link>
           ))}
+          <Link
+            href="/privacy-policy"
+            className="text-muted-foreground hover:text-primary block duration-150"
+          >
+            <span>Privacy Policy</span>
+          </Link>
         </div>
         <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
           <Link
