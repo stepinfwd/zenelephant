@@ -104,34 +104,34 @@ const Image4 = () => (
 
 const items = [
   {
-    title: "From Cloud to Device: Quantized AI and the Future of XR",
+    title: "The Next Frontier in Education: Gen AI and XR",
     description:
-      "Extended Reality (XR) – an umbrella term for AR, VR, and MR – is on the cusp of a major leap forward thanks to artificial intelligence",
+      "Extended Reality (XR) – an umbrella term for AR, VR, and MR – is on the cusp of a major leap forward thanks to artificial intelligence. After years of parallel development, XR and AI are converging to unlock spatial computing experiences.",
     header: <Image1 />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
-    slug: "blog1",
+    slug: "the-next-frontier-education-gen-ai-xr",
   },
   {
-    title: "Mastering Time Management in Every Stage",
+    title: "Mastering Time Management in Every Stage of XR Development",
     description:
       "Every successful XR project begins with a clear understanding of the client's goals. By engaging in detailed discussions, we capture the project's vision, use case, and target audience.",
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
-    slug: "blog2",
+    slug: "mastering-time-management-xr-development",
   },
   {
-    title: "BTS: Behind-the-Scenes: Shooting the Grid-Tsugi's  Trailer",
-    description: "Discover the beauty of thoughtful and functional design.",
+    title: "BTS: Behind-the-Scenes: Shooting the Grid-Tsugi's Trailer",
+    description: "Creating a game trailer is not just about showcasing stunning gameplay—it's about crafting an experience that immerses the viewer.",
     header: <Image3 />,
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    slug: "blog3",
+    slug: "behind-scenes-grid-tsugi-trailer",
   },
   {
-    title: "Making VR game performant for Meta Quest Platform!",
+    title: "Making VR Game Performant for Meta Quest Platform!",
     description:
-      "The Meta Quest 2 reigns supreme in the VR world, but its computational limitations can be tricky to navigate. ",
-    header: <Skeleton />,
+      "The Meta Quest 2 reigns supreme in the VR world, but its computational limitations can be tricky to navigate. This series delves into the technical aspects of optimizing VR games for the Quest 2.",
+    header: <Image4 />,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
-    slug: "blog4",
+    slug: "vr-game-performance-meta-quest",
   },
 ];
