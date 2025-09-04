@@ -41,7 +41,7 @@ export function TableOfContents({ content, className }: TableOfContentsProps) {
   useEffect(() => {
     const handleScroll = () => {
       const headings = toc.map((item) => document.getElementById(item.id));
-      const visibleHeadings = headings.filter((heading) => {
+      const visibleHeadings = headings.filter((heading): heading is HTMLElement => {
         if (!heading) return false;
         const rect = heading.getBoundingClientRect();
         return rect.top <= 100 && rect.bottom >= 100;
