@@ -2,6 +2,18 @@ import Link from "next/link";
 import Image from "next/image";
 import { getAllBlogs } from "@/lib/posts";
 
+interface BlogPost {
+  slug: string;
+  title: string;
+  date: string;
+  author: string;
+  excerpt?: string;
+  coverImage?: string;
+  tags?: string[];
+  readingTime?: string;
+  content: string;
+}
+
 interface RelatedPostsProps {
   currentSlug: string;
   tags?: string[];
@@ -9,7 +21,7 @@ interface RelatedPostsProps {
 }
 
 export function RelatedPosts({ currentSlug, tags = [], limit = 3 }: RelatedPostsProps) {
-  const allPosts = getAllBlogs();
+  const allPosts = getAllBlogs() as BlogPost[];
   const currentPost = allPosts.find(post => post.slug === currentSlug);
   
   // Filter out current post and find related posts by tags
