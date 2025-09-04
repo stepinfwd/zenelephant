@@ -72,11 +72,11 @@ The Quest 2's Adreno 650 GPU has specific characteristics that developers need t
 
 ## Best Practices for Quest 2 Development
 
-1. **Start with Performance in Mind**: Design your game with performance constraints from the beginning
-2. **Profile Early and Often**: Use Unity's Profiler to identify bottlenecks early
-3. **Optimize for Mobile**: Remember that Quest 2 is essentially a mobile device
-4. **Test on Real Hardware**: Always test on actual Quest 2 hardware, not just in the editor
-5. **Use Quest-Specific Features**: Leverage features like foveated rendering and fixed foveated rendering
+1. **Start with Performance in Mind**: Design your game with performance constraints from the beginning.
+2. **Profile Early and Often**: Use Unity's Profiler to identify bottlenecks early.
+3. **Optimize for Mobile**: Remember that Quest 2 is essentially a mobile device.
+4. **Test on Real Hardware**: Always test on actual Quest 2 hardware, not just in the editor.
+5. **Use Quest-Specific Features**: Leverage features like foveated rendering and fixed foveated rendering.
 
 ## Conclusion
 
