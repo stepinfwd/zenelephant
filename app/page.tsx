@@ -6,6 +6,7 @@ import HeroSection from "@/components/hero-section";
 import HeroVideoDialog from "@/components/magicui/hero-video-dialog";
 import TeamSection from "@/components/team";
 import Projects from "@/components/Projects";
+import { NewsSection } from "@/components/news";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       </div>
       <Products />
       <Projects />
+      <NewsSection />
       <TeamSection />
       <BentoGridDemo />
       <GridBackgroundDemo />

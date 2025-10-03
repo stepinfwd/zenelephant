@@ -3,7 +3,7 @@ title: "Making VR Game Performant for Meta Quest Platform!"
 date: "2024-12-10"
 author: "Zen Elephant Team"
 excerpt: "The Meta Quest 2 reigns supreme in the VR world, but its computational limitations can be tricky to navigate. This series delves into the technical aspects of optimizing VR games for the Quest 2."
-coverImage: "/assets/blog2.png"
+coverImage: "/assets/metablog.webp"
 tags: ["VR Development", "Meta Quest", "Performance Optimization", "Unity"]
 readingTime: "12"
 ---
@@ -14,7 +14,7 @@ The Meta Quest 2 reigns supreme in the VR world, but its computational limitatio
 
 Forget quick prototypes and basic functionality - we're going deep. We'll dissect essential settings, explore optimization techniques, and unveil strategies for squeezing the most performance out of your Quest 2 projects. This series is for developers who prioritize silky-smooth frame rates and immersive VR experiences.
 
-![VR Performance Optimization](/assets/blog2.png)
+<!-- ![VR Performance Optimization](/assets/blog2.png) -->
 
 In this first installment, we'll tackle the fundamental settings every Quest 2 developer needs to understand. Ready to unlock your VR project's hidden potential and achieve optimal performance? Let's dive in!
 

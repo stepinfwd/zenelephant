@@ -1,4 +1,5 @@
 import CardDemo from "./cards-demo-1";
+import CardComingSoon from "./cards-demo-2";
 import { BlurFade } from "./magicui/blur-fade";
 
 export default function Projects() {
@@ -20,10 +21,10 @@ export default function Projects() {
             <CardDemo />
           </BlurFade>
           <BlurFade delay={0.45} inView>
-            <CardDemo />
+            <CardComingSoon />
           </BlurFade>
           <BlurFade delay={0.65} inView>
-            <CardDemo />
+            <CardComingSoon />
           </BlurFade>
         </div>
       </div>

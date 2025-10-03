@@ -1,5 +1,5 @@
 import React from "react";
-import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import {
   IconClipboardCopy,
   IconFileBroken,
@@ -7,52 +7,8 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 import Image from "next/image";
-import Link from "next/link";
-
-export function BentoGridDemo() {
-  const displayedItems = items.slice(0, 6);
-
-  return (
-    <div className="max-w-5xl mx-auto py-16 md:py-32" id="blog">
-      <div className="@container mx-auto px-6">
-        <h1 className="text-balance text-4xl font-bold lg:text-5xl">
-          Explore Our Blog
-        </h1>
-        <p className="mt-4 max-w-2xl text-balance text-lg pb-10">
-          Insights, stories, and the latest trends—dive into our curated
-          articles on all things tech, design, and innovation
-        </p>
-
-        <BentoGrid className="max-w-5xl mx-auto">
-          {displayedItems.map((item, i) => (
-            <a href={`/blogs/${item.slug}`} key={item.slug}>
-              <BentoGridItem
-                title={item.title}
-                description={item.description}
-                header={item.header}
-                icon={item.icon}
-                className={i === 3 || i === 6 ? "md:col-span-2" : ""}
-              />
-            </a>
-          ))}
-        </BentoGrid>
-
-        <div className="flex justify-center mt-8">
-          <Link
-            href="/blogs"
-            className="px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors duration-200"
-          >
-            View More Blogs
-          </Link>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-const Skeleton = () => (
-  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div>
-);
+import { HeroHeader } from "@/components/hero9-header";
+import FooterSection from "@/components/footer";
 
 const ImageWithOverlay = ({
   src,
@@ -64,7 +20,6 @@ const ImageWithOverlay = ({
   overlayColor?: string;
 }) => (
   <div className="relative flex flex-1 w-full h-full min-h-[12rem] rounded-xl overflow-hidden group">
-    {/* Main image */}
     <Image
       src={src}
       alt={alt}
@@ -73,8 +28,6 @@ const ImageWithOverlay = ({
       className="object-cover transition-transform duration-500 group-hover:scale-105"
       priority
     />
-
-    {/* Overlay */}
     <div
       className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-300"
       style={{ backgroundColor: overlayColor }}
@@ -147,3 +100,36 @@ const items = [
     slug: "vr-game-performance-meta-quest",
   },
 ];
+
+export default function BlogsPage() {
+  return (
+    <div>
+      <HeroHeader />
+      <div className="max-w-5xl mx-auto py-16 md:py-32">
+        <div className="@container mx-auto px-6">
+          <h1 className="text-balance text-4xl font-bold lg:text-5xl">
+            All Blogs
+          </h1>
+          <p className="mt-4 max-w-2xl text-balance text-lg pb-10">
+            Explore all our insights, stories, and the latest trends in tech, design, and innovation
+          </p>
+
+          <BentoGrid className="max-w-5xl mx-auto">
+            {items.map((item, i) => (
+              <a href={`/blogs/${item.slug}`} key={item.slug}>
+                <BentoGridItem
+                  title={item.title}
+                  description={item.description}
+                  header={item.header}
+                  icon={item.icon}
+                  className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+                />
+              </a>
+            ))}
+          </BentoGrid>
+        </div>
+      </div>
+      <FooterSection />
+    </div>
+  );
+}

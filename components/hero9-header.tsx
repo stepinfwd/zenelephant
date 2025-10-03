@@ -7,10 +7,11 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 
 const menuItems = [
-  { name: "Features", href: "#features" },
-  { name: "Products", href: "#products" },
-  { name: "Team", href: "#team" },
-  { name: "Blog", href: "#blog" },
+  { name: "Features", href: "/#features" },
+  { name: "Products", href: "/#products" },
+  { name: "News", href: "/news" },
+  { name: "Team", href: "/#team" },
+  { name: "Blogs", href: "/blogs" },
   // { name: "Privacy Policy", href: "/privacy-policy" },
 ];
 
@@ -46,19 +47,18 @@ export const HeroHeader = () => {
             )}
           >
             <div className="flex w-full items-center justify-between gap-12 lg:w-auto">
-              {/* <Link
+              <Link
                 href="/"
                 aria-label="home"
                 className="flex items-center space-x-2"
-              > */}
-              <Image
-                src="/assets/zenlogo.svg"
-                alt="Logo"
-                width={60}
-                height={60}
-                // className={cn("w-auto h-auto")}
-              />
-              {/* </Link> */}
+              >
+                <Image
+                  src="/assets/zenlogo.svg"
+                  alt="Logo"
+                  width={60}
+                  height={60}
+                />
+              </Link>
               <button
                 onClick={() => setMenuState(!menuState)}
                 aria-label={menuState == true ? "Close Menu" : "Open Menu"}
