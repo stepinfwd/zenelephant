@@ -74,7 +74,7 @@ const items = [
       "Extended Reality (XR) – an umbrella term for AR, VR, and MR – is on the cusp of a major leap forward thanks to artificial intelligence. After years of parallel development, XR and AI are converging to unlock spatial computing experiences.",
     header: <Image1 />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
-    slug: "the-next-frontier-education-gen-ai-xr",
+    slug: "from-cloud-to-device-quantized-ai-future-xr",
   },
   {
     title: "Mastering Time Management in Every Stage of XR Development",

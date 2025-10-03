@@ -8,6 +8,8 @@ import { TableOfContents } from "@/components/blog/TableOfContents";
 import { AuthorBio } from "@/components/blog/AuthorBio";
 import { RelatedPosts } from "@/components/blog/RelatedPosts";
 import { SocialShare } from "@/components/blog/SocialShare";
+import { HeroHeader } from "@/components/hero9-header";
+import FooterSection from "@/components/footer";
 
 // Simple markdown renderer function
 function renderMarkdown(content) {
@@ -84,6 +86,7 @@ export default async function Post({ params }) {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
+      <HeroHeader />
       {/* Hero Section */}
       <div className="relative">
         {post.coverImage && (
@@ -238,6 +241,7 @@ export default async function Post({ params }) {
           </div>
         </div>
       </div>
+      <FooterSection />
     </div>
   );
 }
