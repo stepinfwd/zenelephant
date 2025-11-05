@@ -57,10 +57,10 @@ export default function HeroSection() {
           <div className="group relative m-auto max-w-7xl px-6">
             <div className="flex flex-col items-center md:flex-row">
               <div className="md:max-w-44 md:border-r md:pr-6">
-                <p className="text-end text-sm">Powering the best teams</p>
+                {/* <p className="text-end text-sm">Powering the best teams</p> */}
               </div>
               <div className="relative py-6 md:w-[calc(100%-11rem)]">
-                <InfiniteSlider speedOnHover={20} speed={40} gap={112}>
+                {/* <InfiniteSlider speedOnHover={20} speed={40} gap={112}>
                   <div className="flex">
                     <img
                       className="mx-auto h-5 w-fit dark:invert"
@@ -135,7 +135,7 @@ export default function HeroSection() {
                       width="auto"
                     />
                   </div>
-                </InfiniteSlider>
+                </InfiniteSlider> */}
 
                 <div className="bg-linear-to-r from-background absolute inset-y-0 left-0 w-20"></div>
                 <div className="bg-linear-to-l from-background absolute inset-y-0 right-0 w-20"></div>
