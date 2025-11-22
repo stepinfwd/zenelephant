@@ -12,7 +12,7 @@ const members = [
     name: "Yadhukrishnan Bk",
     role: "Co-Founder – Creative Head & Operations",
     avatar: "/assets/oya.jpeg", // Local path from public folder
-    link: "https://www.linkedin.com/in/pranav-suresh-7bbb7a141/",
+    link: "https://www.linkedin.com/in/yadu-krishnan-bk-371099221/",
   },
 ];
 
